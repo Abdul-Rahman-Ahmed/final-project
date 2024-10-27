@@ -1,0 +1,207 @@
+/* Basic */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline;
+}
+
+h1,
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+button {
+  padding: 7px 15px;
+  background-color: #01747b;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #00686e;
+}
+
+.background {
+  background-image: url("./travel.jpg");
+  background-size: cover;
+  min-height: calc(100vh - 137px);
+  color: #fff;
+  padding: 50px 100px 0 100px;
+}
+
+/* header */
+header {
+  background-color: #1e2829;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+header .logo {
+  width: 150px;
+}
+
+header .logo img {
+  width: 100%;
+}
+
+header .links li {
+  margin-right: 15px;
+}
+
+header .search {
+  background-color: #fff;
+  padding: 7.5px 10px;
+  border-radius: 10px;
+}
+
+header .search input {
+  color: #01747b;
+  width: 200px;
+  border: none;
+  outline: none;
+}
+
+header .search input::placeholder {
+  color: #01747b;
+}
+
+/* home */
+.home {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home .content {
+  width: 50%;
+}
+
+.home h1 {
+  font-weight: bold;
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.home .content p {
+  background-color: #0009;
+  padding: 20px;
+}
+
+.home .results .card {
+  background-color: #1e2829d4;
+  width: 300px;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 10px #01747b;
+}
+
+.home .results .card .text {
+  padding: 10px;
+}
+
+.home .results .card .text p {
+  color: #ddd;
+}
+
+/* about */
+.about p {
+  text-align: justify;
+}
+
+.about .team {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.about .team h1 {
+  font-size: 50px;
+}
+
+.about .card {
+  background-color: #1e282999;
+  padding: 10px;
+}
+
+.about .card h2 {
+  font-size: 20px;
+}
+
+.about .card p {
+  color: #ddd;
+}
+
+.about .card .btn {
+  text-align: center;
+  background-color: #274385;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact .head {
+  width: 50%;
+  font-size: 30px;
+}
+
+.contact form {
+  width: 50%;
+  background-color: #1e282999;
+  padding: 20px;
+}
+
+.contact form label,
+.contact form input,
+.contact form textarea {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 10px 0;
+  background-color: transparent;
+}
+
+.contact form input,
+.contact form textarea {
+  outline: none;
+  border: solid 1px #ddd9;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.contact form button {
+  width: 100%;
+}
+
+.contact form textarea {
+  min-height: 150px;
+  max-height: 150px;
+  min-width: calc(100% - 20px);
+  max-width: calc(100% - 20px);
+}
